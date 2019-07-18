@@ -567,7 +567,7 @@ gcs_retry_upload <- function(retry_object=NULL, upload_url=NULL, file=NULL, type
     stop("Couldn't get upload status")
   }
 
-  out
+  #out
 }
 
 #' @noRd
